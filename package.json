@@ -1,0 +1,24 @@
+{
+  "name": "provasito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start":"node index.js",	
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pako1897/provasito.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pako1897/provasito/issues"
+  },
+  "homepage": "https://github.com/Pako1897/provasito#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
