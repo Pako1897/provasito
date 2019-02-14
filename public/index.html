@@ -1,23 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- ANIMATE CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
     <!-- FONTAWESOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+
+    <title>Pakode</title>
   </head>
   <body>
 
 <!-- INIZIO NAVBAR -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><i class="fas fa-code"></i> PaKode</a>
+  <a class="navbar-brand" href="/"><i class="fas fa-code"></i> PaKode</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -57,19 +62,58 @@
 <!-- INIZIO JUMBOTRON -->
 
 <div class="jumbotron">
-  <h1 id="titolo" class="display-4">Benvenuti su <i class="fas fa-code"></i>PaKode</h1>
-  <p class="lead " align="text-center">Qui puoi trovare tutto quello che cerchi se vuoi creare un tuo sito web! </p>
+  <h1 id="titolo" class="display-4 text-center">Benvenuti su <i class="fas fa-code"></i>PaKode</h1>
+  <p class="lead text-center">Qui puoi trovare tutto quello che cerchi se vuoi creare un tuo sito web! </p>
   <hr class="my-4">
-	<button id="red">Rosso</button>
-<!--
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+  <!--PROVA ANIMATE CSS
+  <i class="fas fa-car-alt fa-10x animated zoomIn">CIAO</i>
+  -->
+
+<!--PROVA BUTTON
+	<button type="button" class="btn btn-danger " id="red">Rosso</button>
 -->
 </div>
 
 <!-- FINE JUMBOTRON -->
 
-
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<!---->
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<!---->
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<!---->
+    </div>
+  </div>
+</div>
 
 
 
@@ -90,13 +134,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
 
-
+<!--
 <script>
 $('#red').on('click', function () {
   console.log('pulsante premuto');
   $('#titolo').addClass('text-danger');
 });
-</script>
 
+
+</script>
+-->
   </body>
 </html>

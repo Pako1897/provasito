@@ -7,8 +7,7 @@ app.get('/', function(req,res){
 
 app.use(function(req,res){
   res.status(404);
-  res.write('error 404 - page not found');
-  res.end();
+  res.sendFile(__dirname+'/public/404.html');
 })
 
 
