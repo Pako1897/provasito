@@ -17,6 +17,12 @@ app.get('/chisiamo', function(req,res){
   res.sendFile(__dirname+'/public/chisiamo.html');
 })
 
+//prodotti
+
+app.get('/iphonexs', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/iphonexs.html');
+})
+
 app.use(function(req,res){
   res.status(404);
   res.sendFile(__dirname+'/public/404.html');
