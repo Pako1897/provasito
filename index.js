@@ -1,22 +1,26 @@
 const express = require('express');
 const app=express();
 
-app.use('/img', express.static('public'));
+app.use('/img', express.static('public/img'));
 
 app.get('/', function(req,res){
   res.sendFile(__dirname+'/public/index.html');
 })
 
 app.get('/smartphone', function(req,res){
-  res.sendFile(__dirname+'/public/smartphone.html');
+  res.sendFile(__dirname+'/public/sezioni/smartphone.html');
 })
 
 app.get('/salottigiardino', function(req,res){
-  res.sendFile(__dirname+'/public/salottigiardino.html')
+  res.sendFile(__dirname+'/public/sezioni/salottigiardino.html')
+})
+
+app.get('/sedieinterni', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/sedieinterni.html');
 })
 
 app.get('/chisiamo', function(req,res){
-  res.sendFile(__dirname+'/public/chisiamo.html');
+  res.sendFile(__dirname+'/public/sezioni/chisiamo.html');
 })
 
 //prodotti
