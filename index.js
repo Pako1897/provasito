@@ -23,11 +23,18 @@ app.get('/chisiamo', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/chisiamo.html');
 })
 
-//prodotti
+//PRODOTTI
+
+app.get('/sediainterno1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/sediainterno1.html');
+})
 
 app.get('/iphonexs', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/iphonexs.html');
 })
+
+
+//ERROR 404
 
 app.use(function(req,res){
   res.status(404);
