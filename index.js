@@ -1,12 +1,15 @@
 const express = require('express');
 const app=express();
 
+//IMMAGINI
 app.use('/img', express.static('public/img'));
 
+//HOMEPAGE
 app.get('/', function(req,res){
   res.sendFile(__dirname+'/public/index.html');
 })
 
+//SEZIONI
 app.get('/smartphone', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/smartphone.html');
 })
@@ -17,6 +20,10 @@ app.get('/salottigiardino', function(req,res){
 
 app.get('/sedieinterni', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/sedieinterni.html');
+})
+
+app.get('/sgabelli', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/sgabelli.html');
 })
 
 app.get('/chisiamo', function(req,res){
