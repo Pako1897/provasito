@@ -11,19 +11,19 @@ app.get('/', function(req,res){
 
 //SEZIONI
 app.get('/smartphone', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/smartphone.html');
+  res.sendFile(__dirname+'/public/sezioni/elettronica/smartphone.html');
 })
 
 app.get('/salottigiardino', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/salottigiardino.html')
+  res.sendFile(__dirname+'/public/sezioni/arredo_esterni/salottigiardino.html')
 })
 
 app.get('/sedieinterni', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/sedieinterni.html');
+  res.sendFile(__dirname+'/public/sezioni/arredo_interni/sedieinterni.html');
 })
 
 app.get('/sgabelli', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/sgabelli.html');
+  res.sendFile(__dirname+'/public/sezioni/arredo_interni/sgabelli.html');
 })
 
 app.get('/chisiamo', function(req,res){
@@ -33,11 +33,11 @@ app.get('/chisiamo', function(req,res){
 //PRODOTTI
 
 app.get('/sediainterno1', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/sediainterno1.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno1.html');
 })
 
 app.get('/iphonexs', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/iphonexs.html');
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/iphonexs.html');
 })
 
 
