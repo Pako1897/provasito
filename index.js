@@ -32,10 +32,21 @@ app.get('/chisiamo', function(req,res){
 
 //PRODOTTI
 
+  //Sedie da interno
 app.get('/sediainterno1', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno1.html');
 })
 
+app.get('/sediainterno2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno2.html');
+})
+
+app.get('/sediainterno3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno3.html');
+})
+
+
+  //Smartphone
 app.get('/iphonexs', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/iphonexs.html');
 })
