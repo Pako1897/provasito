@@ -45,6 +45,42 @@ app.get('/sediainterno3', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno3.html');
 })
 
+app.get('/sediainterno4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno4.html');
+})
+
+app.get('/sediainterno5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno5.html');
+})
+
+app.get('/sediainterno6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno6.html');
+})
+
+app.get('/sediainterno7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno7.html');
+})
+
+app.get('/sediainterno8', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno8.html');
+})
+
+app.get('/sediainterno9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno9.html');
+})
+
+app.get('/sediainterno10', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno10.html');
+})
+
+app.get('/sediainterno11', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno11.html');
+})
+
+app.get('/sediainterno12', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno12.html');
+})
+
 
   //Smartphone
 app.get('/iphonexs', function(req,res){
