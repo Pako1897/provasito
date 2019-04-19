@@ -81,6 +81,42 @@ app.get('/sediainterno12', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno12.html');
 })
 
+  //sgabelli
+app.get('/sgabello1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello1.html');
+})
+
+app.get('/sgabello2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello2.html');
+})
+
+app.get('/sgabello3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello3.html');
+})
+
+app.get('/sgabello4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello4.html');
+})
+
+app.get('/sgabello5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello5.html');
+})
+
+app.get('/sgabello6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello6.html');
+})
+
+app.get('/sgabello7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello7.html');
+})
+
+app.get('/sgabello8', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello8.html');
+})
+
+app.get('/sgabello9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello9.html');
+})
 
   //Smartphone
 app.get('/iphonexs', function(req,res){
