@@ -119,6 +119,91 @@ app.get('/sgabello9', function(req,res){
 })
 
   //Smartphone
+
+app.get('/note9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/note9.html');
+})
+
+app.get('/s10yb', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10yb.html');
+})
+
+app.get('/s10b', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10b.html');
+})
+
+app.get('/s10+', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10+.html');
+})
+
+app.get('/s9+pb', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9+pb.html');
+})
+
+app.get('/s9+b', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9+b.html');
+})
+
+app.get('/s9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9.html');
+})
+
+app.get('/j6+', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j6+.html');
+})
+
+app.get('/j4+', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j4+.html');
+})
+
+app.get('/a9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/a9.html');
+})
+
+app.get('/a7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/a7.html');
+})
+
+app.get('/mate20pro', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/mate20pro.html');
+})
+
+app.get('/mate20lite', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/mate20lite.html');
+})
+
+app.get('/p20lite', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/p20lite.html');
+})
+
+app.get('/p20', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/p20.html');
+})
+
+app.get('/y5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/y5.html');
+})
+
+app.get('/y6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/y6.html');
+})
+
+app.get('/psmart2019', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/psmart2019.html');
+})
+
+app.get('/psmart', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/psmart.html');
+})
+
+app.get('/7a', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/7a.html');
+})
+
+app.get('/8a', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/8a.html');
+})
+
 app.get('/iphonexs', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/iphonexs.html');
 })
