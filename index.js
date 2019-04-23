@@ -132,28 +132,28 @@ app.get('/s10b', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10b.html');
 })
 
-app.get('/s10+', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10+.html');
+app.get('/s10plus', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10plus.html');
 })
 
-app.get('/s9+pb', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9+pb.html');
+app.get('/s9pluspb', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9pluspb.html');
 })
 
-app.get('/s9+b', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9+b.html');
+app.get('/s9plusb', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9plusb.html');
 })
 
 app.get('/s9', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9.html');
 })
 
-app.get('/j6+', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j6+.html');
+app.get('/j6plus', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j6plus.html');
 })
 
-app.get('/j4+', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j4+.html');
+app.get('/j4plus', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j4plus.html');
 })
 
 app.get('/a9', function(req,res){
