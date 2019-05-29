@@ -81,6 +81,32 @@ app.get('/sediainterno12', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno12.html');
 })
 
+app.get('/sediainterno13', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno13.html');
+})
+
+app.get('/sediainterno14', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno14.html');
+})
+
+app.get('/sediainterno15', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno15.html');
+})
+
+app.get('/sediainterno16', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno16.html');
+})
+
+app.get('/sediainterno17', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno17.html');
+})
+
+app.get('/sediainterno18', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno18.html');
+})
+
+
+
   //sgabelli
 app.get('/sgabello1', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello1.html');
