@@ -144,6 +144,10 @@ app.get('/sgabello9', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello9.html');
 })
 
+app.get('/sgabello10', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello10.html');
+})
+
   //Smartphone
 
 app.get('/note9', function(req,res){
