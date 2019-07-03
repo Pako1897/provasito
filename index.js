@@ -11,19 +11,27 @@ app.get('/', function(req,res){
 
 //SEZIONI
 app.get('/smartphone', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/elettronica/smartphone.html');
+  res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/smartphone.html');
 })
 
 app.get('/salottigiardino', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/arredo_esterni/salottigiardino.html')
+  res.sendFile(__dirname+'/public/sezioni/arredo/salottigiardino.html')
 })
 
-app.get('/sedieinterni', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/arredo_interni/sedieinterni.html');
+app.get('/sedie', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/arredo/sedieinterni.html');
 })
 
 app.get('/sgabelli', function(req,res){
-  res.sendFile(__dirname+'/public/sezioni/arredo_interni/sgabelli.html');
+  res.sendFile(__dirname+'/public/sezioni/arredo/sgabelli.html');
+})
+
+app.get('/poltrone', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/arredo/poltronerelax.html');
+})
+
+app.get('/tavoli', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/arredo/tavoli.html');
 })
 
 app.get('/chisiamo', function(req,res){
@@ -34,208 +42,208 @@ app.get('/chisiamo', function(req,res){
 
   //Sedie da interno
 app.get('/sediainterno1', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno1.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno1.html');
 })
 
 app.get('/sediainterno2', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno2.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno2.html');
 })
 
 app.get('/sediainterno3', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno3.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno3.html');
 })
 
 app.get('/sediainterno4', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno4.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno4.html');
 })
 
 app.get('/sediainterno5', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno5.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno5.html');
 })
 
 app.get('/sediainterno6', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno6.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno6.html');
 })
 
 app.get('/sediainterno7', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno7.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno7.html');
 })
 
 app.get('/sediainterno8', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno8.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno8.html');
 })
 
 app.get('/sediainterno9', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno9.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno9.html');
 })
 
 app.get('/sediainterno10', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno10.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno10.html');
 })
 
 app.get('/sediainterno11', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno11.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno11.html');
 })
 
 app.get('/sediainterno12', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno12.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno12.html');
 })
 
 app.get('/sediainterno13', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno13.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno13.html');
 })
 
 app.get('/sediainterno14', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno14.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno14.html');
 })
 
 app.get('/sediainterno15', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno15.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno15.html');
 })
 
 app.get('/sediainterno16', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno16.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno16.html');
 })
 
 app.get('/sediainterno17', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno17.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno17.html');
 })
 
 app.get('/sediainterno18', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sedie_da_interni/sediainterno18.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno18.html');
 })
 
 
 
   //sgabelli
 app.get('/sgabello1', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello1.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello1.html');
 })
 
 app.get('/sgabello2', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello2.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello2.html');
 })
 
 app.get('/sgabello3', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello3.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello3.html');
 })
 
 app.get('/sgabello4', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello4.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello4.html');
 })
 
 app.get('/sgabello5', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello5.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello5.html');
 })
 
 app.get('/sgabello6', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello6.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello6.html');
 })
 
 app.get('/sgabello7', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello7.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello7.html');
 })
 
 app.get('/sgabello8', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello8.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello8.html');
 })
 
 app.get('/sgabello9', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello9.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello9.html');
 })
 
 app.get('/sgabello10', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/arredo_interni/sgabelli/sgabello10.html');
+  res.sendFile(__dirname+'/public/prodotti/arredo/sgabelli/sgabello10.html');
 })
 
   //Smartphone
 
 app.get('/note9', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/note9.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/note9.html');
 })
 
 app.get('/s10yb', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10yb.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/s10yb.html');
 })
 
 app.get('/s10b', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10b.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/s10b.html');
 })
 
 app.get('/s10plus', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s10plus.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/s10plus.html');
 })
 
 app.get('/s9pluspb', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9pluspb.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/s9pluspb.html');
 })
 
 app.get('/s9plusb', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9plusb.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/s9plusb.html');
 })
 
 app.get('/s9', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/s9.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/s9.html');
 })
 
 app.get('/j6plus', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j6plus.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/j6plus.html');
 })
 
 app.get('/j4plus', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/j4plus.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/j4plus.html');
 })
 
 app.get('/a9', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/a9.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a9.html');
 })
 
 app.get('/a7', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/a7.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a7.html');
 })
 
 app.get('/mate20pro', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/mate20pro.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/mate20pro.html');
 })
 
 app.get('/mate20lite', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/mate20lite.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/mate20lite.html');
 })
 
 app.get('/p20lite', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/p20lite.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/p20lite.html');
 })
 
 app.get('/p20', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/p20.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/p20.html');
 })
 
 app.get('/y5', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/y5.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y5.html');
 })
 
 app.get('/y6', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/y6.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y6.html');
 })
 
 app.get('/psmart2019', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/psmart2019.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/psmart2019.html');
 })
 
 app.get('/psmart', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/psmart.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/psmart.html');
 })
 
 app.get('/7a', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/7a.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/7a.html');
 })
 
 app.get('/8a', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/8a.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/8a.html');
 })
 
 app.get('/iphonexs', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/elettronica/telefoni/iphonexs.html');
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/iphonexs.html');
 })
 
 
