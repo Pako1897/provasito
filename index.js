@@ -246,6 +246,31 @@ app.get('/iphonexs', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/iphonexs.html');
 })
 
+  //POLTRONE
+
+app.get('/poltrona1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona1.html');
+})
+
+app.get('/poltrona2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona2.html');
+})
+
+app.get('/poltrona3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona3.html');
+})
+
+app.get('/poltrona4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona4.html');
+})
+
+app.get('/poltrona5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona5.html');
+})
+
+app.get('/poltrona6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona6.html');
+})
 
 //ERROR 404
 
