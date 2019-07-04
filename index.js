@@ -272,6 +272,18 @@ app.get('/poltrona6', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona6.html');
 })
 
+app.get('/poltrona7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona7.html');
+})
+
+app.get('/poltrona8', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona8.html');
+})
+
+app.get('/poltrona9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona9.html');
+})
+
 //ERROR 404
 
 app.use(function(req,res){
