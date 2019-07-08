@@ -30,6 +30,10 @@ app.get('/poltrone', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/poltronerelax.html');
 })
 
+app.get('/poltronediv', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/arredo/poltronediv.html');
+})
+
 app.get('/tavoli', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/tavoli.html');
 })
