@@ -288,6 +288,30 @@ app.get('/poltrona9', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona9.html');
 })
 
+  //SALOTTI
+
+app.get('/salotto1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto1.html');
+})
+
+app.get('/salotto2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto2.html');
+})
+
+app.get('/salotto3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto3.html');
+})
+
+app.get('/salotto4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto4.html');
+})
+
+app.get('/salotto5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto5.html');
+})
+
+
+
 //ERROR 404
 
 app.use(function(req,res){
