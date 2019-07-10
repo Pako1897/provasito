@@ -310,7 +310,13 @@ app.get('/salotto5', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto5.html');
 })
 
+app.get('/salotto6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto6.html');
+})
 
+app.get('/salotto7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto7.html');
+})
 
 //ERROR 404
 
