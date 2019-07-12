@@ -292,6 +292,35 @@ app.get('/poltrona9', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/poltrone/poltrona9.html');
 })
 
+
+  //POLTRONE UFFICIO
+
+app.get('/poltronauff1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltroneuff/poltronauff1.html');
+})
+
+app.get('/poltronauff2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltroneuff/poltronauff2.html');
+})
+
+app.get('/poltronauff3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltroneuff/poltronauff3.html');
+})
+
+app.get('/poltronauff4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltroneuff/poltronauff4.html');
+})
+
+app.get('/poltronauff5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltroneuff/poltronauff5.html');
+})
+
+app.get('/poltronauff6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/poltroneuff/poltronauff6.html');
+})
+
+
+
   //SALOTTI
 
 app.get('/salotto1', function(req,res){
