@@ -351,6 +351,30 @@ app.get('/salotto7', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/salotti/salotto7.html');
 })
 
+  //TAVOLI
+
+app.get('/tavolo1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/tavoli/tavolo1.html');
+})
+
+app.get('/tavolo2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/tavoli/tavolo2.html');
+})
+
+app.get('/tavolo3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/tavoli/tavolo3.html');
+})
+
+app.get('/tavolo4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/tavoli/tavolo4.html');
+})
+
+app.get('/tavolo5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/tavoli/tavolo5.html');
+})
+
+
+
 //ERROR 404
 
 app.use(function(req,res){
