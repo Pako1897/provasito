@@ -18,6 +18,10 @@ app.get('/salottigiardino', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/salottigiardino.html')
 })
 
+app.get('/lettini', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/arredo/lettini.html')
+})
+
 app.get('/sedie', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/sedieinterni.html');
 })
@@ -371,6 +375,12 @@ app.get('/tavolo4', function(req,res){
 
 app.get('/tavolo5', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/tavoli/tavolo5.html');
+})
+
+  //LETTINI
+
+app.get('/lettino1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/lettini/lettino1.html');
 })
 
 
