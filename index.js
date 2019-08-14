@@ -234,8 +234,8 @@ app.get('/y5', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y5.html');
 })
 
-app.get('/y6', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y6.html');
+app.get('/y7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y7.html');
 })
 
 app.get('/psmart2019', function(req,res){
