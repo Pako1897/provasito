@@ -314,6 +314,22 @@ app.get('/view10lite', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/view10lite.html');
 })
 
+app.get('/taba8', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/taba8.html');
+})
+
+app.get('/taba10', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/taba10.html');
+})
+
+app.get('/tabmaj7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/tabmaj7.html');
+})
+
+app.get('/tabmaj10', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/tabmaj10.html');
+})
+
   //POLTRONE
 
 app.get('/poltrona1', function(req,res){
