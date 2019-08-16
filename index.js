@@ -14,6 +14,10 @@ app.get('/smartphone', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/smartphone.html');
 })
 
+app.get('/console', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/console.html');
+})
+
 app.get('/salottigiardino', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/salottigiardino.html')
 })
@@ -328,6 +332,21 @@ app.get('/tabmaj7', function(req,res){
 
 app.get('/tabmaj10', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/tabmaj10.html');
+})
+
+
+  //CONSOLE
+
+app.get('/console1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console1.html');
+})
+
+app.get('/console2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console2.html');
+})
+
+app.get('/console3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console3.html');
 })
 
   //POLTRONE
