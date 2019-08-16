@@ -254,8 +254,64 @@ app.get('/8a', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/8a.html');
 })
 
-app.get('/iphonexs', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/iphonexs.html');
+app.get('/xsmax256', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xsmax256.html');
+})
+
+app.get('/xsmax64', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xsmax64.html');
+})
+
+app.get('/xs', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xs.html');
+})
+
+app.get('/xr', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xr.html');
+})
+
+app.get('/8plus', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/8plus.html');
+})
+
+app.get('/6s', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/6s.html');
+})
+
+app.get('/a50', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a50.html');
+})
+
+app.get('/a40', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a40.html');
+})
+
+app.get('/a20', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a20.html');
+})
+
+app.get('/a10', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a10.html');
+})
+
+app.get('/p30', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/p30.html');
+})
+
+app.get('/mate20', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/mate20.html');
+})
+
+app.get('/p20pro', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/p20pro.html');
+})
+
+app.get('/psmartz', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/psmartz.html');
+})
+
+app.get('/view10lite', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/view10lite.html');
 })
 
   //POLTRONE
