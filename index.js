@@ -18,6 +18,10 @@ app.get('/console', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/console.html');
 })
 
+app.get('/tv', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/tv.html');
+})
+
 app.get('/salottigiardino', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/salottigiardino.html')
 })
@@ -347,6 +351,57 @@ app.get('/console2', function(req,res){
 
 app.get('/console3', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console3.html');
+})
+
+
+  //TV
+
+app.get('/tv1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv1.html');
+})
+
+app.get('/tv2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv2.html');
+})
+
+app.get('/tv3', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv3.html');
+})
+
+app.get('/tv4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv4.html');
+})
+
+app.get('/tv5', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv5.html');
+})
+
+app.get('/tv6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv6.html');
+})
+
+app.get('/tv7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv7.html');
+})
+
+app.get('/tv8', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv8.html');
+})
+
+app.get('/tv9', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv9.html');
+})
+
+app.get('/tv10', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv10.html');
+})
+
+app.get('/tv11', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv11.html');
+})
+
+app.get('/tv12', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv12.html');
 })
 
   //POLTRONE
