@@ -34,6 +34,10 @@ app.get('/sedie', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/sedieinterni.html');
 })
 
+app.get('/sedieattesa', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/arredo/sedieattesa.html');
+})
+
 app.get('/sgabelli', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/sgabelli.html');
 })
