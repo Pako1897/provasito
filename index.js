@@ -22,6 +22,14 @@ app.get('/tv', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/tv.html');
 })
 
+app.get('/svago', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/svago.html');
+})
+
+app.get('/accessori', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/accessori.html');
+})
+
 app.get('/salottigiardino', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/arredo/salottigiardino.html')
 })
