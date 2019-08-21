@@ -268,6 +268,10 @@ app.get('/y5', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y5.html');
 })
 
+app.get('/y6', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y6.html');
+})
+
 app.get('/y7', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/y7.html');
 })
@@ -288,6 +292,10 @@ app.get('/8a', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/8a.html');
 })
 
+app.get('/xsmax512', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xsmax512.html');
+})
+
 app.get('/xsmax256', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xsmax256.html');
 })
@@ -296,20 +304,48 @@ app.get('/xsmax64', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xsmax64.html');
 })
 
-app.get('/xs', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xs.html');
+app.get('/xs64', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xs64.html');
 })
 
-app.get('/xr', function(req,res){
-  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xr.html');
+app.get('/xs256', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xs256.html');
+})
+
+app.get('/xr64', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xr64.html');
+})
+
+app.get('/xr128', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/xr128.html');
 })
 
 app.get('/8plus', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/8plus.html');
 })
 
+app.get('/iphone8', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/iphone8.html');
+})
+
+app.get('/iphone7', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/iphone7.html');
+})
+
+app.get('/ipad2018', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/ipad2018.html');
+})
+
+app.get('/ipadpro', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/ipadpro.html');
+})
+
 app.get('/6s', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/6s.html');
+})
+
+app.get('/a70', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/a70.html');
 })
 
 app.get('/a50', function(req,res){
@@ -330,6 +366,10 @@ app.get('/a10', function(req,res){
 
 app.get('/p30', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/p30.html');
+})
+
+app.get('/p30lite', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/telefoni/p30lite.html');
 })
 
 app.get('/mate20', function(req,res){
