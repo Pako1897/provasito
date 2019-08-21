@@ -145,6 +145,17 @@ app.get('/sediainterno18', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno18.html');
 })
 
+app.get('/sediainterno19', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno19.html');
+})
+
+app.get('/sediainterno20', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno20.html');
+})
+
+app.get('/sediainterno21', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno21.html');
+})
 
 
   //sgabelli
