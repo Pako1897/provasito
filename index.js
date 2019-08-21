@@ -157,6 +157,9 @@ app.get('/sediainterno21', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno21.html');
 })
 
+app.get('/sediainterno22', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/arredo/sedie/sediainterno22.html');
+})
 
   //sgabelli
 app.get('/sgabello1', function(req,res){
