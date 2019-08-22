@@ -419,6 +419,9 @@ app.get('/console3', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console3.html');
 })
 
+app.get('/console4', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console4.html');
+})
 
   //TV
 
@@ -468,6 +471,10 @@ app.get('/tv11', function(req,res){
 
 app.get('/tv12', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv12.html');
+})
+
+app.get('/tv13', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/tv/tv13.html');
 })
 
   //POLTRONE
