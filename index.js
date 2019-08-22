@@ -405,6 +405,12 @@ app.get('/tabmaj10', function(req,res){
 })
 
 
+  //ACCESSORI
+
+app.get('/accessorio1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/accessori/accessorio1.html');
+})
+
   //CONSOLE
 
 app.get('/console1', function(req,res){
