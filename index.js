@@ -14,6 +14,10 @@ app.get('/smartphone', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/smartphone.html');
 })
 
+app.get('/computer', function(req,res){
+  res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/computer.html');
+})
+
 app.get('/console', function(req,res){
   res.sendFile(__dirname+'/public/sezioni/smartphone_tv_acc/console.html');
 })
@@ -427,6 +431,16 @@ app.get('/console3', function(req,res){
 
 app.get('/console4', function(req,res){
   res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/console/console4.html');
+})
+
+  //COMPUTER
+
+app.get('/computer1', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/computer/computer1.html');
+})
+
+app.get('/computer2', function(req,res){
+  res.sendFile(__dirname+'/public/prodotti/smartphone_tv_acc/computer/computer2.html');
 })
 
   //TV
